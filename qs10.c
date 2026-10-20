@@ -62,7 +62,7 @@ int main() {
             classAvgSum += studentAvg;
         }
 
-        // 7. After middle loop finishes, calculate class average and print details
+        // 7. After middle loop, calculate class average and print details
         float classAverage = classAvgSum / numStudents;
         
         printf("\nTotal marks of all students in Class %d: %.2f\n", c, classTotalMarks);
@@ -75,7 +75,7 @@ int main() {
         totalStudentsGlobal += numStudents;
     }
 
-    // At the very end, display overall school results
+    // display overall school results
     float overallSchoolAverage = globalAvgSum / totalStudentsGlobal;
 
     printf("\n==================================================\n");
